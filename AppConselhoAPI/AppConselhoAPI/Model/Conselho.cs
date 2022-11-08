@@ -6,12 +6,12 @@ namespace AppConselhoAPI.Model
 {
     public class Conselho
     {
-        public string id { get; set; }
+        public string slip_id { get; set; }
         public string advice { get; set; }
 
         public Conselho()
         {
-            this.id = " ";
+            this.slip_id = " ";
             this.advice = " ";
         }
     }

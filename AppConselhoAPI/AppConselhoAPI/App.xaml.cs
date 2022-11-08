@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppConselhoAPI.View;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace AppConselhoAPI
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new PaginaConselho();
         }
 
         protected override void OnStart()
