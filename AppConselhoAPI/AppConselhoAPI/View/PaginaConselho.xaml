@@ -4,15 +4,12 @@
              x:Class="AppConselhoAPI.View.PaginaConselho">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-
-            <Entry x:Name="adviceEntry"/>
-            <Button x:Name="BtnAdvice" Text="Buscar Conselho" Clicked="BtnAdvice_Clicked"/>
 
             <Label x:Name="lblSlip_Id" Text="{Binding slip_id}" TextColor="Black"/>
             <Label x:Name="lblAdvice"  Text="{Binding advice}" TextColor="Black"/>
+
+            <Entry x:Name="adviceEntry"/>
+            <Button x:Name="BtnAdvice" Text="Buscar Conselho" Clicked="BtnAdvice_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>
